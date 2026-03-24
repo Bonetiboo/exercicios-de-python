@@ -3,8 +3,8 @@
 valor = float(input("Digite o valor do produto:"))
 vip = input("Você é VIP? (responda com sim ou não):")
 
-if (valor >= 200):
-    if (vip == "sim"):
+if valor >= 200:
+    if vip == "sim":
         print(f"Você recebeu um desconto de 20%, ou seja {valor/5}, no total ficaria {valor - (valor/5)}")
     else:
         print(f"Você recebeu um desconto de 10%, ou seja {valor/10}, no total ficaria {valor - (valor/10)}")

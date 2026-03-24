@@ -2,13 +2,12 @@
 
 numero = int(input("Digite qualquer número inteiro:"))
 
-if (numero > 0):
-    if (numero % 2 == 0):
+if numero > 0:
+    if numero % 2 == 0:
         print("Seu número é par e positivo.")
     else:
         print("Seu número é ímpar e positivo.")
-elif (numero == 0):
+elif numero == 0:
     print("Seu número é 0.")
 else:
     print("Seu número é negativo.")
-    

@@ -2,15 +2,13 @@
 
 dia = input("Qual o dia da semana?")
 
-if (dia == "domingo"):
+if dia == "domingo":
     dor = input("Como está a cabeça? (responda: com dor/sem dor):")
-    if (dor == "com dor"):
+    if dor == "com dor":
         print("Recuperando, então descanse.")
     else:
         print("Apenas descanse então.")
-elif (dia == "sábado"):
+elif dia == "sábado":
     print("Dia de festa.")
 else:
     print("Trabalhando, trabalhando e trabalhando.")
-
-    

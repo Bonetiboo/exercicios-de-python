@@ -14,6 +14,8 @@ n1t3 = float(input("Forneça a primeira nota do terceiro trimestre:"))
 n2t3 = float(input("Forneça a segunda nota do terceiro trimestre:"))
 n3t3 = float(input("Forneça a terceira nota do terceiro trimestre:"))
 
-m = (((n1t1 + n2t1 + n3t1) / 3) + ((n1t2 + n2t2 + n3t2) / 3) + ((n1t3 + n2t3 + n3t3) / 3)) / 3
+m = (
+    ((n1t1 + n2t1 + n3t1) / 3) + ((n1t2 + n2t2 + n3t2) / 3) + ((n1t3 + n2t3 + n3t3) / 3)
+) / 3
 
 print("A média final do aluno", a, "é", m)

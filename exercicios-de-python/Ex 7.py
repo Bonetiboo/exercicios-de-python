@@ -3,7 +3,7 @@
 # Endereço e CPF
 
 nome = input("Insira seu nome:")
-sobrenome = input ("Insira seu sobrenome:")
+sobrenome = input("Insira seu sobrenome:")
 cpf = int(input("Forneça seu CPF:"))
 end = input("Forneça seu endereço:")
 n_end = int(input("Forneça o número do endereço:"))

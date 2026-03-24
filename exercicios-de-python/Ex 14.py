@@ -2,8 +2,8 @@
 
 nota = float(input("Forneça a nota obtida:"))
 
-if (nota >= 6):
-    if (nota >= 9):
+if nota >= 6:
+    if nota >= 9:
         print("Aprovado com excelência.")
     else:
         print("Aprovado")

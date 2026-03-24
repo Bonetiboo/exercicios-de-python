@@ -2,6 +2,6 @@
 # dada a equação de Einstein para energia. E = mc²
 
 m = float(input("Forneça a massa do corpo em kg:"))
-e = m * 299792458 ** 2
+e = m * 299792458**2
 
 print("A energia do corpo é:", e)

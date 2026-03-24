@@ -1,4 +1,4 @@
-# Ex.10 - Cálculo de desconto do INSS. Solicite o salário para o usuário e retorne o valor a ser descontado e o valor a ser recebido. 
+# Ex.10 - Cálculo de desconto do INSS. Solicite o salário para o usuário e retorne o valor a ser descontado e o valor a ser recebido.
 
 # Faixa Salarial (R$)         Alíquota (%)                Parcela a Deduzir (R$)
 # Até 1621                       7,%                             -
@@ -7,7 +7,7 @@
 # 4354,27 à 8475,55              14,0%                            198,49
 
 salario = float(input("Insira seu salário:"))
-d1 = 0 
+d1 = 0
 d2 = 24.32
 d3 = 111.40
 d4 = 198.49

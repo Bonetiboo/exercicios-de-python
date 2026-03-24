@@ -2,7 +2,7 @@
 # Crie as seguintes regras:
 
 # Aprovado - renda => 3000 and score >= 700
-# Análise manual - renda => 2000 and score >= 600 
+# Análise manual - renda => 2000 and score >= 600
 # Caso constrário - Negado
 
 rm = float(input("Insira sua renda mensal:"))
@@ -14,4 +14,3 @@ elif rm >= 2000 and sc >= 600:
     print("Uma análise manual será realizada.")
 else:
     print("Negado.")
-

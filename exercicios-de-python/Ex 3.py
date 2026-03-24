@@ -1,4 +1,4 @@
-# Ex. 3 - Crie um algoritmo com estrutura de input para o usuário para solicitar 
+# Ex. 3 - Crie um algoritmo com estrutura de input para o usuário para solicitar
 # distância em km e retornar o valor em metros e em cm
 
 d = float(input("Forneça a distãncia em km:"))
