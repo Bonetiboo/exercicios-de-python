@@ -1,6 +1,6 @@
 # Média final de notas
 
-a = str(input("Nome do aluno:"))
+a = input("Nome do aluno:")
 
 n1t1 = float(input("Forneça a primeira nota do primeiro trimestre:"))
 n2t1 = float(input("Forneça a segunda nota do primeiro trimestre:"))
