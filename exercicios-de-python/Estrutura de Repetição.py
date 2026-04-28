@@ -126,59 +126,120 @@
 
 # # Exemplo 13 - while
 
-soma = 0
+# soma = 0
 
-var1 = int(input("Digite um número: "))
+# var1 = int(input("Digite um número: "))
 
-while var1 != 0:
-    soma += var1
-    print(f"A soma é {soma}")
+# while var1 != 0:
+#     soma += var1
+#     print(f"A soma é {soma}")
     
-    var1 = int(input("Digite um número: "))
+#     var1 = int(input("Digite um número: "))
 
-# Exemplo 14
+# # Exemplo 14
 
-num = 3
+# num = 3
 
-while num <= 5:
-    soma += num
-    num += 1
-    print(f"A soma será {soma}")
+# while num <= 5:
+#     soma += num
+#     num += 1
+#     print(f"A soma será {soma}")
 
-# Exemplo 15 - fatorial
+# # Exemplo 15 - fatorial
 
-num2 = int(input("Insira um número: "))
+# num2 = int(input("Insira um número: "))
 
-fat = 1
-i = 1
+# fat = 1
+# i = 1
 
-while i <= num2:
-    fat *= i
-    i += 1
-    print(fat)
+# while i <= num2:
+#     fat *= i
+#     i += 1
+#     print(fat)
 
-# Exemplo 16 - estrutura de condição dentro do while
+# # Exemplo 16 - estrutura de condição dentro do while
 
-realizado = False
+# realizado = False
 
-while not realizado:
-    entrada = int(input("Insira alguma coisa: "))
+# while not realizado:
+#     entrada = int(input("Insira alguma coisa: "))
 
-    if entrada == 999:
-        realizado = True
-        print(realizado)
-    else:
-        print(realizado)
+#     if entrada == 999:
+#         realizado = True
+#         print(realizado)
+#     else:
+#         print(realizado)
 
-# Exemplo 17 - while e lista
+# # Exemplo 17 - while e lista
 
-lista = []
-i = 0
+# lista = []
+# i = 0
 
-while len(lista) < 10:
-    lista.append(i)
-    i += 1
-    print(lista)
+# while len(lista) < 10:
+#     lista.append(i)
+#     i += 1
+#     print(lista)
+
+# # Exemplo 18 - comparação for vs while
+
+# for i in range(3):
+#     print(i)
+
+# i = 0
+# while i < 3:
+#     print(i)
+#     i += 1
+
+# # Exemplo 19
+
+# nomes = ["ana", "laura", "pedro", "paulo"]
 
 
+# for i in nomes:
+#     print(i)
 
+# i = 0
+# while i < len(nomes):
+#     print(nomes(i))
+#     i += 1
+
+# # Exemplo 20
+
+# lista = [10, 20, 30, 40, 50]
+# soma = 0
+
+# for i in lista:
+#     soma +=1
+#     print(soma)
+
+# # Exemplo 21
+
+# lista2 = []
+
+# for i in range(3):
+#     nome = input("Digite seu nome: ")
+#     lista2.append(nome)
+#     print(lista2)
+
+# lista3 = []
+# i = 0
+
+# while i < 3:
+#     nome = input("Digite seu nome:")
+#     lista3.append(nome)
+#     print(lista3)
+#     i += 1
+
+# Exemplo 22
+
+for i in range(3):
+    senha = input("Digite sua senha: ")
+    if senha == "sair":
+        print(senha)
+        break
+
+while True:
+    nome = input("Digite seu nome: ")
+    if nome == "sair":
+        print(nome)
+        break
