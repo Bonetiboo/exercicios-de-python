@@ -1,4 +1,4 @@
-# Crie uma estrutura para solicitar o tipo de figura geométrica, após isso, mostre como calcular a área e o perímetro de cada figura geométrica.
+# Ex.52 - Crie uma estrutura para solicitar o tipo de figura geométrica, após isso, mostre como calcular a área e o perímetro de cada figura geométrica.
 
 print("Caso algum parâmetro não exista, digite 1.")
 
