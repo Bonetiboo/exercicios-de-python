@@ -1,6 +1,20 @@
-# Ex.58 - Crie um algoritmo para solicitar nome, salario e taxa de desconto no salário e calcular o respectivo desconto no salario e apresentar o salario à receber. 
+# Ex.58 - Crie um algoritmo para calcular o desconto e mostrar o respectivo salário de uma determinada pessoa.
 
-# print e respectivo nome, desconto no salario e salario a receber
+# Insira nome, salario, taxa de desconto (27,5%) e retorne o valor de desconto e o valor a ser recebido.
 
-# nome = ana, salario = 2000 -, desconto = (2000 * 10)/100
+# Faça o teste para duas ou três pessoas. 
 
+class Salario:
+    def __init__(self, nome, salario):
+        self.nome = nome
+        self.salario = salario
+    def calculoDeDesconto(self):
+        return f"{self.nome}, o valor que você irá receber é de {self.salario * 0.725}, pois você terá um desconto de {self.salario * 0.275}."
+
+s1 = Salario(('Sabrina'), (10000))
+s2 = Salario(('Lucas'), (600))
+s3 = Salario(('Rafael'), (1600))
+
+print(s1.calculoDeDesconto())
+print(s2.calculoDeDesconto())
+print(s3.calculoDeDesconto())
